@@ -29,3 +29,9 @@
 *.app
 
 .idea/*
+
+# Music`s
+*.wav
+
+# Image`s
+*.png
