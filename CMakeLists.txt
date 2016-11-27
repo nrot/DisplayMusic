@@ -3,7 +3,10 @@ project( DisplayMusic )
 set(SRC_LIST DisplayMusic.cpp
              apps/apps_wave_file.h apps/apps_wave_file.cpp
              apps/apps_arrays.h apps/apps_arrays.cpp
-             examples/ampl_view.h examples/ampl_view.cpp examples/ampl_edit.h)
+             examples/ampl_view.h examples/ampl_view.cpp
+             examples/ampl_edit.h
+             classes/coords.h
+             classes/line.cpp classes/line.h)
 add_executable( ${PROJECT_NAME} ${SRC_LIST})
 
 target_link_libraries( DisplayMusic ${OpenCV_LIBS} )
